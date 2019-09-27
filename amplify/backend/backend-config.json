@@ -1,0 +1,38 @@
+{
+	"api": {
+		"mathopchatbot": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+			"output": {
+				"authConfig": {
+					"additionalAuthenticationProviders": [],
+					"defaultAuthentication": {
+						"authenticationType": "API_KEY",
+						"apiKeyConfig": {
+							"description": "",
+							"apiKeyExpirationDays": 180
+						}
+					}
+				}
+			}
+		}
+	},
+	"auth": {
+		"cognito09b3367d": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation"
+		}
+	},
+	"interactions": {
+		"BookTickectBot": {
+			"service": "Lex",
+			"providerPlugin": "awscloudformation",
+			"build": true
+		},
+		"lexc120ce4c": {
+			"service": "Lex",
+			"providerPlugin": "awscloudformation",
+			"build": true
+		}
+	}
+}

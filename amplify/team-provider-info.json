@@ -1,0 +1,19 @@
+{
+    "prod": {
+        "awscloudformation": {
+            "AuthRoleName": "mathopchatbot-prod-20190926120111-authRole",
+            "UnauthRoleArn": "arn:aws:iam::751333304013:role/mathopchatbot-prod-20190926120111-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::751333304013:role/mathopchatbot-prod-20190926120111-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "mathopchatbot-prod-20190926120111-deployment",
+            "UnauthRoleName": "mathopchatbot-prod-20190926120111-unauthRole",
+            "StackName": "mathopchatbot-prod-20190926120111",
+            "StackId": "arn:aws:cloudformation:us-east-1:751333304013:stack/mathopchatbot-prod-20190926120111/3c914310-e027-11e9-b99d-0ec3f5318aae"
+        },
+        "categories": {
+            "auth": {
+                "cognito09b3367d": {}
+            }
+        }
+    }
+}
